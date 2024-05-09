@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.nato-hindi {
+    font-family: "Noto Sans Devanagari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body .navbar {
+    background-color: rgb(210 65 21);
+    padding: 0;
+}
+body .container {
+    max-width: 1536px;
+    padding: 0 2rem;
+}
+
+.navbar .current {
+    background-color: rgb(234 88 12);
+}
+
+body .navbar .container .nav-link {
+    padding: 0.75rem;
+}
+
+body p {
+    color: rgb(71 85 105);
+    line-height: 1.7;
+}
+
+.bannerCta {
+    background: #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    @media (max-width: 900px) {
+        padding: 0.5rem;
+    }
+}
+
+.redDot {
+    background: rgb(220 38 38);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+
+    @media (max-width: 900px) {
+        align-self: flex-start;
+    }
+}
+
+.bannerCta h6{
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 0 1rem;
+    margin-bottom: 0;
+
+    @media (max-width: 900px) {
+        font-size: 0.925rem;
+        line-height: 1.45rem;
+        flex: 1;
+    }
+}
+
+button.btn {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding: 0.25rem 0.75rem;
+
+    @media (max-width: 900px) {
+        flex-basis: 40%;
+    }
+}
+
+.navbar.secondaryNavbar {
+    background-color: transparent;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+    padding: 0.25rem 0;
+}
+
+.navbar.secondaryNavbar .secondNavLeft {
+    display: flex;
+    align-items: center;
+}
+
+.navbar.secondaryNavbar .secondNavLeft .navbar-brand img {
+    max-height: 26px;
+}
+
+button.btn.btn-primary {
+    background-color: rgb(234 88 12);
+    border: 0;
+}
+
+.allMenu {
+    display: flex;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    @media (max-width: 900px) {
+        display: none;
+    }
+}
+
+.allMenu .nav-item{
+    border-right: 1px solid #e5e7eb;
+}
+
+.navbar .allMenu .nav-item .nav-link{
+    padding: 0.5rem 0.75rem;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: #fff !important;
+}
+
+.allMenu form input {
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    padding: 0 1rem;
+}
+
+button.btn.btn-outline-success {
+    background-color: rgb(254 215 170);
+    border: 0;
+    border-radius: 0;
+}
+
+nav .breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, ">");
+}
+
+.breadcrumb li{
+    padding: 0.75rem 0;
+}
+
+.breadcrumb li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.topBannerSection img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+main h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600 !important;
+    margin-bottom: 1rem;
+}
+
+.searchbar .dropdown-submenu {
+    position: relative;
+  }
+  
+  .searchbar .no-child .dropdown-item::after {
+    content: none;
+  }
+  
+  .searchbar .dropdown-submenu > .dropdown-menu {
+    left: 100%;
+    /* -6px gives dropdown-menu's padding+border */
+    top: -6px;
+  }
+  
+  .searchbar .dropdown-submenu:hover > .dropdown-menu,
+  .searchbar .dropdown-submenu > a:focus + .dropdown-menu {
+    /* :focus support is incomplete - pressing Tab sets focus to submenu, but that immediately hides submenu */
+    display: block;
+  }
+
+  .search-icon {
+    display: none;
+
+    @media (max-width: 900px) {
+        font-size: 1.4rem;
+        margin-right: 1rem;
+        display: block;
+    }
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+  }
+
+  body .videoSeriesSec {
+    margin-top: 5rem;
+}
+
+.videoSeriesSec h3 {
+    font-size: 1.25rem;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1rem;
+}
+
+.partTag {
+    font-size: 0.75rem;
+    background: rgb(148 163 184);
+    color: #fff;
+    padding: 2px 10px 2px 5px;
+    padding-top: 4px;
+    display: inline-block;
+    margin: 1rem 0;
+    border-radius: 3px;
+}
+
+.singleVideoGrid h5 {
+    font-size: 1.125rem;
+    margin-bottom: 0.25rem;
+    margin-bottom: 0;
+}
+
+.singleVideoGrid p {
+    margin-bottom: 0rem;
+}
+
+.singleVideoGrid .strike{
+    text-decoration-line: line-through;
+}
+
+.catTag {
+    font-size: 0.75rem;
+    background-color: rgb(199 230 248);
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    padding-bottom: 0.20rem;
+}
+
+.singleVideoGrid p {
+    margin-bottom: 0rem;
+}
+
+.catTag {
+    font-size: 0.75rem;
+    background-color: rgb(199 230 248);
+    padding: 0.125rem 0.5rem;
+    border-radius: 4px;
+    padding-bottom: 0.20rem;
+    text-transform: capitalize;
+}
+
+.singleVideoGrid {
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
+    margin-left: -1rem;
+    border-radius: 8px;
+}
+
+.singleVideoGrid:hover{
+    background-color: rgb(241 245 249);
+}
+
+.singleVideoGrid .btn-link {
+    color: rgb(234 88 12);
+    padding: 0;
+    padding-right: 1rem;
+    border-right: 1px solid #e5e7eb;
+    border-radius: 0;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.singleVideoGrid .bottomCta {
+    margin-top: 1rem;
+}
+
+.singleVideoGrid .btn-link:last-of-type {
+    border-right: 0;
+}
+
+footer {
+    background: rgb(15 23 42);
+    padding: 3rem 0;
+    color: #e5e7eb;
+}
+
+footer .row{
+    justify-content: center;
+}
+
+footer h6 {
+    color: rgb(241 245 249);
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+footer li {
+    list-style: none;
+    color: rgb(203 213 225);
+    padding: 0.25rem 0;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer a {
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+footer a {
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.row.bottom-footer {
+    border-top: 1px solid rgb(148 163 184);
+    padding: 2rem 0;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.navbar {
+    .donate {
+        background-color: transparent !important;
+        border: 1px solid #fff !important;
+        margin-right: 1rem;
+        display: none;
+
+        @media (max-width: 900px) {
+            display: block;
+        }
+    }
+}
